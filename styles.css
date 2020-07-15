@@ -1,0 +1,15 @@
+body {
+
+}
+
+.top-container {
+  border: solid red;
+}
+
+.middle-container {
+border: solid cyan;
+}
+
+.bottom-container {
+  border: solid violet;
+}
