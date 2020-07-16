@@ -1,15 +1,200 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  line-height: 2;
+  font-family: 'Merriweather', serif;
 }
 
 .top-container {
-  border: solid red;
+  background-color: #EAF6F6;
+  position: relative;
+  margin-bottom: 100px;
 }
 
 .middle-container {
-border: solid cyan;
+  margin-bottom: 100px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bottom-container {
-  border: solid violet;
+  text-align: center;
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.intro-text {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto 0 auto;
+}
+
+.sabelo-image {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 20%;
+}
+
+h1 {
+  color: #66BFBF;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  padding-top: 100px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  width: 4%;
+  margin: 70px auto 50px auto;
+  border-color: #EAF6F6;
+  clear: right;
+}
+
+h2 {
+  color: #66BFBF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  margin: 10px 0 20px 0;
+}
+
+h3  {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #eaf6f6;
+}
+
+.need-an-app {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.get-in-touch-info {
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.computer-image {
+  width: 20%;
+  border-radius: 50%;
+  float: left;
+}
+
+.design-development {
+  margin-left: 230px;
+  padding-bottom: 10px;
+  position: relative;
+  top: 40px;
+}
+
+.design-development-info {
+  margin-left: 230px;
+  position: relative;
+  top: 40px;
+}
+
+.fifa-video-game-series {
+  padding-bottom: 10px;
+  padding-top: 50px;
+  clear: left;
+  position: relative;
+  top: 40px;
+}
+
+.fifa-skill-info {
+  position: relative;
+  top: 40px;
+  padding-right: 250px;
+}
+
+.fifa20-image {
+  float: right;
+  margin-bottom: 50px;
+}
+
+.get-in-touch {
+  clear: right;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  display: block;
+  left: 250px;
+}
+
+.copyright {
+  padding: 10px;
+}
+
+.mountain-image {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.css-button {
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px #3866a3;
+    background: linear-gradient(180deg, #11cdd4 5%, #11999e 100%);
+    text-shadow: 1px 1px 0px #528ecc;
+    box-shadow: inset 1px 1px 0px 0px #bbdaf7;
+}
+
+.css-button:hover {
+    background: linear-gradient(180deg, #11999e 5%, #11cdd4 100%);
+}
+
+.css-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.css-button-text {
+    padding: 7px 18px;
+    float: left;
+}
+
+.css-button-icon {
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+    border-radius: 5px 0 0 5px;
+    padding: 7px 10px;
+    float: left;
 }
